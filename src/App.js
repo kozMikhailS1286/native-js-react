@@ -1,7 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import {useEffect} from "react";
+
+// import
 
 function App() {
+  // useEffect(() => {
+  //   const script = document.createElement('script')
+  //
+  //   script.src= './js11.js'
+  //   script.async=true
+  //   document.body.appendChild(script)
+  // }, [])
   return (
     <div className="App">
       <header className="App-header">
